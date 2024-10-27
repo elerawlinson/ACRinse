@@ -1,32 +1,30 @@
 Amr Al Dayeh, Elena Rawlinson, Javier Gutierrez Bach 
 COSC 112 
 
-<h2>Downloads before you Compile</h2>
+<h2>To Run the Program</h2>
 <ul>
-    <li>Download “Project.Java” and put it in a folder with the same name</li>
+    <li>Note: You need to have Java installed on your local machine.</li>
+    <li>Download ACRinse folder</li>
     <li>Download Project.Java/src that should contain:
         <ul>
+            <li>Project.java</li>
             <li>All images</li>
             <li>ACRinse.txt</li>
             <li>json-simple-1.1.jar</li>
         </ul>
     </li>
-    <li>Download JSON external libraries using this link: 
-        <a href="http://www.java2s.com/Code/Jar/j/Downloadjsonsimple11jar.htm">http://www.java2s.com/Code/Jar/j/Downloadjsonsimple11jar.htm</a>
-    </li>
-</ul>
+    <li>From terminal, cd into ACRinse</li>
+    <li>Run the following commands:</li>
+        <ul>
+    <li><code>javac -cp .:json-simple-1.1.1.jar Project.java</code></li>
+    <li><code>java -cp .:json-simple-1.1.1.jar Project</code></li>
+        </ul>
 
-<h2>To Compile:</h2>
-<ul>
-    <li>Direct the terminal to the source folder of your Project folder.</li>
-    <li>Then run this command: <code>javac -cp json-simple-1.1.jar -d classes Project.java</code></li>
 </ul>
-
-<p>To run the program after compiling, run this command: 
-<code>java -cp json-simple-1.1.jar:. Project.java</code></p>
 
 <h2>How to use the program:</h2>
 <ul>
+    <li>To see the server working, refer to: https://drive.google.com/drive/folders/1e9ylJGAOr75ZgmvuFBOb8s8uLiDJ_Lrg?usp=sharing</li>
     <li>For all of the buttons and interfaces of the app, the main way to work your way through it is by using the mouse click.</li>
     <li>First up, the program will ask you to log in or register. To log in, the program only needs an email as an input, which you will write on the textbox in the panel, and then if the account is found, it will log in as the user with that email. Otherwise, you can create a new user and give it a name, last name, and an email address which will create a new account and store it in the data.</li>
     <li>The program opens on the home page and the user can select any of the following buttons:
